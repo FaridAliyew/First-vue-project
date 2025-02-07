@@ -1,26 +1,25 @@
 <template>
   <div>
-    <!-- <HeroBackground :imageUrl=" require('../images/Image.png')" /> -->
-    <Navbar />
-    <MainHero/>
+    <HeroBackground>
+      <Navbar />
+      <MainHero/>
+    </HeroBackground>
+    <SamplePromotion/>
   </div>
 </template>
 
 <script>
-// import HeroBackground from '@/components/HeroBackground.vue';
 import Navbar from '@/components/Navbar.vue';
-import MainHero from '@/components/MainHero.vue';
+import HeroBackground from '@/components/HeroBackground.vue';
+import MainHero from './components/MainHero.vue';
+import SamplePromotion from './components/SamplePromotion.vue';
 
 export default {
   components: {
-    // HeroBackground,
     Navbar,
+    HeroBackground,
     MainHero,
-  },
-  data() {
-    return {
-
-    };
+    SamplePromotion
   },
 };
 </script>
