@@ -5,6 +5,7 @@
       <MainHero/>
     </HeroBackground>
     <SamplePromotion/>
+    <ProductIntro/>
   </div>
 </template>
 
@@ -13,13 +14,15 @@ import Navbar from '@/components/Navbar.vue';
 import HeroBackground from '@/components/HeroBackground.vue';
 import MainHero from './components/MainHero.vue';
 import SamplePromotion from './components/SamplePromotion.vue';
+import ProductIntro from './components/ProductIntro.vue';
 
 export default {
   components: {
     Navbar,
     HeroBackground,
     MainHero,
-    SamplePromotion
+    SamplePromotion,
+    ProductIntro
   },
 };
 </script>
