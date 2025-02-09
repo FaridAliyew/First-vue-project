@@ -2,10 +2,12 @@
   <div>
     <HeroBackground>
       <Navbar />
-      <MainHero/>
+      <MainHero />
     </HeroBackground>
-    <SamplePromotion/>
-    <ProductIntro/>
+    <SamplePromotion />
+    <ProductIntro />
+    <AuthForm />
+    <!-- <ClientReviews/> -->
   </div>
 </template>
 
@@ -15,6 +17,9 @@ import HeroBackground from '@/components/HeroBackground.vue';
 import MainHero from './components/MainHero.vue';
 import SamplePromotion from './components/SamplePromotion.vue';
 import ProductIntro from './components/ProductIntro.vue';
+import AuthForm from './components/AuthForm.vue';
+import ClientReviews from './components/ClientReviews.vue';
+
 
 export default {
   components: {
@@ -22,17 +27,17 @@ export default {
     HeroBackground,
     MainHero,
     SamplePromotion,
-    ProductIntro
+    ProductIntro,
+    AuthForm,
+    ClientReviews
   },
 };
 </script>
 
 <style>
-
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 </style>
