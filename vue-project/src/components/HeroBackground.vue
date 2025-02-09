@@ -27,6 +27,4 @@
   background: rgb(44, 1, 105); 
   z-index: -1; 
 }
-
-
 </style>

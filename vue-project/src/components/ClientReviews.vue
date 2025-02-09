@@ -62,7 +62,6 @@
     max-width: 900px;
 }
 
-/* Desktop modda iki-iki düzülməsi üçün */
 @media (min-width: 768px) {
     .reviews {
         grid-template-columns: repeat(2, 1fr);
@@ -97,7 +96,6 @@
     font-style: italic;
 }
 
-/* Mobile modda hamısı alt-alta düzülməsi üçün */
 @media (max-width: 768px) {
     .review {
         flex-direction: column;
