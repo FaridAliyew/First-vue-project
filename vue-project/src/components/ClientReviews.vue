@@ -38,7 +38,7 @@
 
 <style scoped>
 .main-container {
-    background-color: rgba(2, 0, 97, 0.888);
+    background-color: rgb(38 19 96);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -77,7 +77,7 @@
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     background-color: white;
-    
+
 }
 
 .review img {

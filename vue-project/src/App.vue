@@ -7,7 +7,8 @@
     <SamplePromotion />
     <ProductIntro />
     <AuthForm />
-    <!-- <ClientReviews/> -->
+    <ClientReviews/>
+    <!-- <EasyToSetup/> -->
   </div>
 </template>
 
@@ -19,6 +20,7 @@ import SamplePromotion from './components/SamplePromotion.vue';
 import ProductIntro from './components/ProductIntro.vue';
 import AuthForm from './components/AuthForm.vue';
 import ClientReviews from './components/ClientReviews.vue';
+// import EasyToSetup from './components/EasyToSetup.vue';
 
 
 export default {
@@ -29,7 +31,8 @@ export default {
     SamplePromotion,
     ProductIntro,
     AuthForm,
-    ClientReviews
+    ClientReviews,
+    // EasyToSetup
   },
 };
 </script>
